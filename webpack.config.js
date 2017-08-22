@@ -12,10 +12,10 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|flow)$/,
+        test: /\.(js|jsx)$/,
+        exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         options: {
-          plugins: ['transform-object-rest-spread'],
           presets: ['env', 'react']
         }
       }

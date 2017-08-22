@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ChromeiQL",
-  "version": "0.1",
-  "description": "Chrome app wrapper for the GraphiQL tool",
+  "name": "iPipeline ChromeiQL",
+  "version": "0.2",
+  "description": "Chrome app wrapper for the GraphiQL tool, old version",
   "background": {
     "scripts": ["js/background.js"],
     "persistent": false

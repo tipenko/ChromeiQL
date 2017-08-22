@@ -1,14 +1,14 @@
 {
-  "manifest_version": 2,
-  "name": "iPipeline ChromeiQL",
-  "version": "0.2",
-  "description": "Chrome app wrapper for the GraphiQL tool, old version",
+  "manifest_version": 3,
+  "name": "ChromeiQL",
+  "version": "0.11",
+  "description": "tipenko modified Chrome app wrapper for the GraphiQL tool",
   "background": {
     "scripts": ["js/background.js"],
     "persistent": false
   },
   "browser_action": {
-    "default_title": "Launch ChromeiQL",
+    "default_title": "Launch tipenko's old ChromeiQL",
     "default_icon": "public/chromeiql_logo.png"
   },
   "icons": {

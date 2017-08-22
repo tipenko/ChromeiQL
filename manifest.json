@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "ChromeiQL",
+  "name": "tipenko's ChromeiQL",
   "version": "0.11",
   "description": "tipenko modified Chrome app wrapper for the GraphiQL tool",
   "background": {
